@@ -13,7 +13,7 @@ body {
 
 #main-nav {
     background-color: gray;
-    text-align: center;
+    text-align: left;
 }
 
 #main-nav li {
@@ -22,7 +22,7 @@ body {
 }
 
 #main-nav li:hover {
-    background-color: aqua;
+    background-color: blue;
 }
 
 #main-nav ul ul {
@@ -60,7 +60,7 @@ body {
 
 #contact {
     text-align: center;
-    background-color: blue;
+    background-color: purple;
     float: right;
     width: 25%;
     margin-right: 10px;

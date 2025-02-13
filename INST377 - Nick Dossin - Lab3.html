@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Lab-3 Solution Page
+            Lab-3 Rock Paper Scissors
         </title>
         <link rel="stylesheet" href="INST377 - Nick Dossin - Lab3 -Layout.css">
     </head>
@@ -15,44 +15,39 @@
          <!-- Navigation -->
         <nav id="main-nav">
             <ul>
-                <li>Announcments</li>
-                <li>Assingnments
-                    <ul>
-                        <li>Assignment 1</li>
-                        <li>Assignment 2</li>
-                    </ul>
-                </li>
+                <li><a href="https://finance.yahoo.com">Yahoo Finance</a></li>
+                <li><a href="https://gemini.google.com">Gemini</a></li>
+                <li><a href="https://www.testudo.umd.edu">Testudo</a></li>
             </ul>
         </nav>
 
         <!-- Main text Area -->
          <div class="main-container">
-            <h1>Announcments</h1>
             <div class="content-area">
                 <div class="content-box">
-                    <h1>This is content box 1</h1>
-                    <p>Lorem ispsum</p>
-                </div>
-                <div class="content-box">
-                    <h1>This is content box 2</h1>
-                    <p>Lorem ispsum</p>
-                </div>
-                <div class="content-box">
-                    <h1>This is content box 3</h1>
-                    <p>Lorem ispsum</p>
+                    <h1>Please choose one of the following.</h1>
+                    <form>
+                        <label>Name:</label>
+                        <input type="text" id="name">
+                        <br>
+                        <label>Your choice:</label>
+                        <select id="options" name="options">
+                            <option>Rock</option>
+                            <option>Paper</option>
+                            <option>Scissors</option>
+                        </select>
+                        <br>
+                        <input type="submit">
+                    </form>
+
                 </div>
             </div>
 
             <aside id="contact">
-                <h1>Contact Info</h1>
-                <hr>
-                <h3>Name: Nick Dossin</h3>
-                <h3>Email: nickdossin@gmail.com</h3>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
-                    <input type="submit">  
-                </form>
+                <h1><u>Rules</u></h1>
+                <h3>You must choose Rock, Paper, or Scissors</h3>
+                <h3>The Combos are as follows:</h3>
+
             </aside>
          </div>
 

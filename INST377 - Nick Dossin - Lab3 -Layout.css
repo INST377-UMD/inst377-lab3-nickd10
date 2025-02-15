@@ -4,16 +4,15 @@ body {
 
 .bar {
     text-align: center;
-    color: white;
+    color: orange;
     background-color: gray;
     padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    clear: both;
     margin: 10px;
 }
 
 #main-nav {
-    background-color: black;
+    background-color: blue;
     text-align: left;
 }
 
@@ -23,13 +22,14 @@ body {
 }
 
 #main-nav li:hover {
-    background-color: white;
+    background-color: black;
 }
 
 #main-nav ul li {
     list-style-type: none;
     text-align: center;
     padding: 10px;
+    color: white;
 }
 
 .content-area {
